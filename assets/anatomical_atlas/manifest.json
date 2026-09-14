@@ -1,0 +1,297 @@
+{
+  "atlas_version": "physiosentinel_anatomical_atlas_v1",
+  "mode": "STRICT_REAL_MESH",
+  "notes": "Only real OBJ/STL meshes are accepted. No procedural cylinders/cones are used as fallback.",
+  "bones": [
+    {
+      "id": "pelvis",
+      "file": "bones/pelvis.obj",
+      "proximal": "pelvis",
+      "distal": "lumbar_body"
+    },
+    {
+      "id": "femur_r",
+      "file": "bones/femur_r.obj",
+      "proximal": "femur_r",
+      "distal": "tibia_r"
+    },
+    {
+      "id": "femur_l",
+      "file": "bones/femur_l.obj",
+      "proximal": "femur_l",
+      "distal": "tibia_l"
+    },
+    {
+      "id": "patella_r",
+      "file": "bones/patella_r.obj",
+      "proximal": "femur_r",
+      "distal": "tibia_r"
+    },
+    {
+      "id": "patella_l",
+      "file": "bones/patella_l.obj",
+      "proximal": "femur_l",
+      "distal": "tibia_l"
+    },
+    {
+      "id": "tibia_r",
+      "file": "bones/tibia_r.obj",
+      "proximal": "tibia_r",
+      "distal": "talus_r"
+    },
+    {
+      "id": "tibia_l",
+      "file": "bones/tibia_l.obj",
+      "proximal": "tibia_l",
+      "distal": "talus_l"
+    },
+    {
+      "id": "fibula_r",
+      "file": "bones/fibula_r.obj",
+      "proximal": "tibia_r",
+      "distal": "talus_r"
+    },
+    {
+      "id": "fibula_l",
+      "file": "bones/fibula_l.obj",
+      "proximal": "tibia_l",
+      "distal": "talus_l"
+    },
+    {
+      "id": "talus_r",
+      "file": "bones/talus_r.obj",
+      "proximal": "talus_r",
+      "distal": "calcn_r"
+    },
+    {
+      "id": "talus_l",
+      "file": "bones/talus_l.obj",
+      "proximal": "talus_l",
+      "distal": "calcn_l"
+    },
+    {
+      "id": "calcaneus_r",
+      "file": "bones/calcaneus_r.obj",
+      "proximal": "calcn_r",
+      "distal": "toes_r"
+    },
+    {
+      "id": "calcaneus_l",
+      "file": "bones/calcaneus_l.obj",
+      "proximal": "calcn_l",
+      "distal": "toes_l"
+    },
+    {
+      "id": "foot_r",
+      "file": "bones/foot_r.obj",
+      "proximal": "calcn_r",
+      "distal": "toes_r"
+    },
+    {
+      "id": "foot_l",
+      "file": "bones/foot_l.obj",
+      "proximal": "calcn_l",
+      "distal": "toes_l"
+    },
+    {
+      "id": "spine",
+      "file": "bones/spine.obj",
+      "proximal": "pelvis",
+      "distal": "thorax"
+    },
+    {
+      "id": "scapula_r",
+      "file": "bones/scapula_r.obj",
+      "proximal": "thorax",
+      "distal": "scapula_r"
+    },
+    {
+      "id": "scapula_l",
+      "file": "bones/scapula_l.obj",
+      "proximal": "thorax",
+      "distal": "scapula_l"
+    },
+    {
+      "id": "clavicle_r",
+      "file": "bones/clavicle_r.obj",
+      "proximal": "thorax",
+      "distal": "scapula_r"
+    },
+    {
+      "id": "clavicle_l",
+      "file": "bones/clavicle_l.obj",
+      "proximal": "thorax",
+      "distal": "scapula_l"
+    },
+    {
+      "id": "humerus_r",
+      "file": "bones/humerus_r.obj",
+      "proximal": "humerus_r",
+      "distal": "ulna_r"
+    },
+    {
+      "id": "humerus_l",
+      "file": "bones/humerus_l.obj",
+      "proximal": "humerus_l",
+      "distal": "ulna_l"
+    },
+    {
+      "id": "radius_r",
+      "file": "bones/radius_r.obj",
+      "proximal": "radius_r",
+      "distal": "hand_r"
+    },
+    {
+      "id": "radius_l",
+      "file": "bones/radius_l.obj",
+      "proximal": "radius_l",
+      "distal": "hand_l"
+    },
+    {
+      "id": "ulna_r",
+      "file": "bones/ulna_r.obj",
+      "proximal": "ulna_r",
+      "distal": "hand_r"
+    },
+    {
+      "id": "ulna_l",
+      "file": "bones/ulna_l.obj",
+      "proximal": "ulna_l",
+      "distal": "hand_l"
+    }
+  ],
+  "muscles": [
+    {
+      "id": "gluteus_r",
+      "file": "muscles/gluteus_r.obj",
+      "proximal": "pelvis",
+      "distal": "femur_r"
+    },
+    {
+      "id": "gluteus_l",
+      "file": "muscles/gluteus_l.obj",
+      "proximal": "pelvis",
+      "distal": "femur_l"
+    },
+    {
+      "id": "iliopsoas_r",
+      "file": "muscles/iliopsoas_r.obj",
+      "proximal": "pelvis",
+      "distal": "femur_r"
+    },
+    {
+      "id": "iliopsoas_l",
+      "file": "muscles/iliopsoas_l.obj",
+      "proximal": "pelvis",
+      "distal": "femur_l"
+    },
+    {
+      "id": "quadriceps_r",
+      "file": "muscles/quadriceps_r.obj",
+      "proximal": "femur_r",
+      "distal": "tibia_r"
+    },
+    {
+      "id": "quadriceps_l",
+      "file": "muscles/quadriceps_l.obj",
+      "proximal": "femur_l",
+      "distal": "tibia_l"
+    },
+    {
+      "id": "hamstrings_r",
+      "file": "muscles/hamstrings_r.obj",
+      "proximal": "pelvis",
+      "distal": "tibia_r"
+    },
+    {
+      "id": "hamstrings_l",
+      "file": "muscles/hamstrings_l.obj",
+      "proximal": "pelvis",
+      "distal": "tibia_l"
+    },
+    {
+      "id": "gastrocnemius_r",
+      "file": "muscles/gastrocnemius_r.obj",
+      "proximal": "tibia_r",
+      "distal": "calcn_r"
+    },
+    {
+      "id": "gastrocnemius_l",
+      "file": "muscles/gastrocnemius_l.obj",
+      "proximal": "tibia_l",
+      "distal": "calcn_l"
+    },
+    {
+      "id": "soleus_r",
+      "file": "muscles/soleus_r.obj",
+      "proximal": "tibia_r",
+      "distal": "calcn_r"
+    },
+    {
+      "id": "soleus_l",
+      "file": "muscles/soleus_l.obj",
+      "proximal": "tibia_l",
+      "distal": "calcn_l"
+    },
+    {
+      "id": "tibialis_anterior_r",
+      "file": "muscles/tibialis_anterior_r.obj",
+      "proximal": "tibia_r",
+      "distal": "toes_r"
+    },
+    {
+      "id": "tibialis_anterior_l",
+      "file": "muscles/tibialis_anterior_l.obj",
+      "proximal": "tibia_l",
+      "distal": "toes_l"
+    },
+    {
+      "id": "peroneals_r",
+      "file": "muscles/peroneals_r.obj",
+      "proximal": "tibia_r",
+      "distal": "toes_r"
+    },
+    {
+      "id": "peroneals_l",
+      "file": "muscles/peroneals_l.obj",
+      "proximal": "tibia_l",
+      "distal": "toes_l"
+    },
+    {
+      "id": "deltoid_r",
+      "file": "muscles/deltoid_r.obj",
+      "proximal": "scapula_r",
+      "distal": "humerus_r"
+    },
+    {
+      "id": "deltoid_l",
+      "file": "muscles/deltoid_l.obj",
+      "proximal": "scapula_l",
+      "distal": "humerus_l"
+    },
+    {
+      "id": "biceps_r",
+      "file": "muscles/biceps_r.obj",
+      "proximal": "humerus_r",
+      "distal": "radius_r"
+    },
+    {
+      "id": "biceps_l",
+      "file": "muscles/biceps_l.obj",
+      "proximal": "humerus_l",
+      "distal": "radius_l"
+    },
+    {
+      "id": "triceps_r",
+      "file": "muscles/triceps_r.obj",
+      "proximal": "scapula_r",
+      "distal": "ulna_r"
+    },
+    {
+      "id": "triceps_l",
+      "file": "muscles/triceps_l.obj",
+      "proximal": "scapula_l",
+      "distal": "ulna_l"
+    }
+  ]
+}

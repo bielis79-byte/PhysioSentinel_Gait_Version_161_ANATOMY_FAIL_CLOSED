@@ -1,0 +1,5 @@
+Punto de entrada: streamlit_app.py
+
+V161 mantiene los requisitos y la configuración de V160. Sustituye el contenido
+del repositorio por el contenido de este ZIP, manteniendo secrets/configuración
+privada existentes. No almacena el ZIP Denver ni secuencias pesadas en Supabase.

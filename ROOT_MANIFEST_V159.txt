@@ -1,0 +1,8 @@
+ARCHIVOS OBLIGATORIOS EN LA RAIZ:
+streamlit_app.py
+requirements.txt
+skel_poc.py
+visible_human_atlas.py
+denver_muscle_rig_v150.py
+
+La carpeta assets debe mantenerse como carpeta.

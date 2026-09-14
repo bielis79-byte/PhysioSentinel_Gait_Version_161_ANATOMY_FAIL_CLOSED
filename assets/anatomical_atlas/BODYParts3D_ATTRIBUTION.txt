@@ -1,0 +1,15 @@
+PhysioSentinel Gait V110.3.20.15 — Anatomical Atlas Assets
+
+Geometry source when installed at runtime:
+BodyParts3D / Anatomography
+© The Database Center for Life Science
+License: Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP)
+
+Required credit:
+"BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan"
+
+Mirror used by the runtime asset manager:
+https://github.com/Kevin-Mattheus-Moerman/BodyParts3D
+
+The anatomical geometry is downloaded into the temporary runtime cache only.
+It is not uploaded to Supabase and is not embedded into patient NPZ files.

@@ -1,0 +1,79 @@
+{
+  "version": 160,
+  "source_npz": "V110_3_19_11_SKEL_mesh_sequence (18).npz",
+  "frames": 75,
+  "criteria": "anatomical directional + no-reflection + temporal continuity + foot 3-landmark similarity",
+  "checks": {
+    "r_pelvis": {
+      "det_min": 0.9999999999999999,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 2.570103914634186,
+      "pass": true
+    },
+    "l_pelvis": {
+      "det_min": 0.9999999999999999,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 2.570103914634186,
+      "pass": true
+    },
+    "r_thigh": {
+      "det_min": 0.9999999999999998,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 3.4584545124358246,
+      "pass": true
+    },
+    "l_thigh": {
+      "det_min": 0.9999999999999999,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 2.726486651403096,
+      "pass": true
+    },
+    "r_shank": {
+      "det_min": 0.9999999999999998,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 4.857894395525259,
+      "pass": true
+    },
+    "l_shank": {
+      "det_min": 0.9999999999999997,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 4.006543128522101,
+      "pass": true
+    },
+    "r_foot": {
+      "det_min": 0.9999999999999999,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 4.663044766011956,
+      "pass": true
+    },
+    "l_foot": {
+      "det_min": 0.9999999999999998,
+      "det_max": 1.0000000000000004,
+      "max_frame_rotation_deg": 6.304645049815341,
+      "pass": true
+    }
+  },
+  "anatomy": {
+    "r": {
+      "patella_anterior_min": 0.08531860190555005,
+      "medial_foot_inward_min": 0.018623437960136786,
+      "greater_trochanter_lateral_min": 0.14184148411596492,
+      "fibula_lateral_local_min": 0.04471797916287779,
+      "foot_similarity_det": 1.0000000000000009,
+      "foot_similarity_scale": 2.7891723945193956,
+      "foot_landmark_rmse_frame0": 0.023544935605613267,
+      "pass": true
+    },
+    "l": {
+      "patella_anterior_min": 0.09379812607460264,
+      "medial_foot_inward_min": 0.015773200206989312,
+      "greater_trochanter_lateral_min": 0.14563943933231596,
+      "fibula_lateral_local_min": 0.0540675590745706,
+      "foot_similarity_det": 0.9999999999999997,
+      "foot_similarity_scale": 2.797282938540241,
+      "foot_landmark_rmse_frame0": 0.023801429165505664,
+      "pass": true
+    }
+  },
+  "overall_pass": true
+}

@@ -1,0 +1,16 @@
+PHYSIOSENTINEL GAIT V159 - PAQUETE STREAMLIT CORREGIDO
+
+Este ZIP esta preparado para subir directamente al NIVEL RAIZ de un repositorio GitHub.
+
+Comprobaciones realizadas:
+- streamlit_app.py en la raiz
+- requirements.txt en la raiz
+- menos de 100 archivos para evitar problemas del cargador web de GitHub
+- modulos Python compilados sin errores de sintaxis
+
+En Streamlit Community Cloud usar:
+Branch: main
+Main file path: streamlit_app.py
+
+IMPORTANTE:
+Al descomprimir, suba EL CONTENIDO de esta carpeta al repositorio, no una carpeta contenedora adicional.

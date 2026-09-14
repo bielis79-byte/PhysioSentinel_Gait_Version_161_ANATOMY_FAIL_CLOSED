@@ -1,0 +1,71 @@
+{
+  "npz": "/mnt/data/V110_3_19_11_SKEL_mesh_sequence (10).npz",
+  "frames": 75,
+  "atlas_counts": {
+    "bones": 28,
+    "muscles": 76
+  },
+  "tests": {
+    "compact_frame0_identity": {
+      "max_R_error": 1.4169879178741222e-16,
+      "max_translation": 4.440892098500626e-16,
+      "pass": true
+    },
+    "right_handed_frames": {
+      "min_det": 0.9999999999999998,
+      "max_orth_error": 4.440892098500626e-16,
+      "pass": true
+    },
+    "patella_r_anterior": {
+      "signed_distance": 0.10820066901275563,
+      "pass": true
+    },
+    "patella_l_anterior": {
+      "signed_distance": 0.10671927359553468,
+      "pass": true
+    },
+    "fibula_r_lateral": {
+      "signed_distance": 0.10408639078918525,
+      "pass": true
+    },
+    "fibula_l_lateral": {
+      "signed_distance": 0.03207236988949806,
+      "pass": true
+    },
+    "foot_r_medial_cuneiform": {
+      "signed_distance": 0.05363855358601993,
+      "pass": true
+    },
+    "foot_l_medial_cuneiform": {
+      "signed_distance": 0.05046410635901513,
+      "pass": true
+    },
+    "sacrum_posterior": {
+      "signed_anterior_distance": -0.30473872138462144,
+      "pass": true
+    },
+    "femoral_head_r_at_hip_center": {
+      "distance": 0.0,
+      "pass": true
+    },
+    "femoral_head_l_at_hip_center": {
+      "distance": 0.0,
+      "pass": true
+    },
+    "temporal_rotation_continuity": {
+      "max_deg_per_frame": 9.070990562438965,
+      "by_segment": {
+        "r:pelvis": 1.1656683683395386,
+        "r:thigh": 3.753063201904297,
+        "r:shank": 5.140260219573975,
+        "r:foot": 9.070990562438965,
+        "l:pelvis": 1.1656683683395386,
+        "l:thigh": 3.029829740524292,
+        "l:shank": 4.659426212310791,
+        "l:foot": 8.967514991760254
+      },
+      "pass": true
+    }
+  },
+  "all_pass": true
+}

@@ -1,0 +1,24 @@
+streamlit==1.63.0
+pose2sim==0.10.49
+imageio-ffmpeg>=0.5,<1
+toml>=0.10.2
+scipy>=1.10,<1.17
+pandas>=2.0,<3
+# V110.1.3 · Pose2Sim/OpenSim requiere NumPy >=2.1; SKEL se usa sin stack gráfico moderngl-window
+numpy>=2.1,<2.6
+requests>=2.31,<3
+matplotlib>=3.7,<4
+plotly>=6.0,<7
+
+
+py7zr>=0.22,<1
+
+# V110.1.4 · SKEL CPU: el paquete SKEL NO se resuelve aquí porque su metadata fuerza moderngl-window<NumPy2.
+# El código público SKEL se instala bajo demanda con --no-deps; los modelos .pkl NO se incluyen.
+torch>=2.2
+smplx>=0.1.28
+trimesh>=4.0
+tqdm>=4.66
+
+# V110.2.8 · Cloudflare R2 private SKEL auto-loader
+boto3>=1.34,<2

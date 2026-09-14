@@ -1,0 +1,56 @@
+{
+  "control": {
+    "version": "161-anatomy-fail-closed",
+    "pelvis_ap_corrected": false,
+    "sacrum_posterior_margin": 0.20056852706845235,
+    "foot_assignment": {
+      "r": "r",
+      "l": "l"
+    },
+    "hallux_medial_score": {
+      "r": 0.16780691217318736,
+      "l": 0.12239641036822682
+    },
+    "neutral_offset_deg": {
+      "r": 29.221623125131394,
+      "l": 36.003910561734536
+    },
+    "axis_map_determinant": 1.0,
+    "pass": true,
+    "skin_qc": {
+      "neutral_offset_deg": {
+        "r": 29.221623125131394,
+        "l": 36.003910561734536
+      },
+      "pass": true
+    },
+    "finite": true
+  },
+  "alejandro": {
+    "version": "161-anatomy-fail-closed",
+    "pelvis_ap_corrected": true,
+    "sacrum_posterior_margin": 0.1720529763929931,
+    "foot_assignment": {
+      "r": "l",
+      "l": "r"
+    },
+    "hallux_medial_score": {
+      "r": 0.08949787874541751,
+      "l": 0.07483826595501018
+    },
+    "neutral_offset_deg": {
+      "r": 65.93783033044885,
+      "l": 61.70356400832752
+    },
+    "axis_map_determinant": -1.0,
+    "pass": true,
+    "skin_qc": {
+      "neutral_offset_deg": {
+        "r": 65.93783033044885,
+        "l": 61.70356400832752
+      },
+      "pass": true
+    },
+    "finite": true
+  }
+}

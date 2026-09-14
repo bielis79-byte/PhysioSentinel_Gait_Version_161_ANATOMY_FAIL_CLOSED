@@ -1,0 +1,9 @@
+PhysioSentinel Gait V93 anatomical asset provenance
+
+Z-Anatomy - The libre 3D atlas of anatomy - CC BY-SA 4.0.
+BodyParts3D - The Database Center for Life Science - CC Attribution-Share Alike 2.1 Japan.
+Z-Anatomy design/3D/anatomy: Gauthier Kervyn and contributors.
+Original BodyParts3D model: Kousaku Okubo / Database Center for Life Science.
+
+Any redistributed derivative anatomical asset must preserve the applicable attribution and ShareAlike terms.
+PhysioSentinel patient kinematics are not anatomical source data and do not make the generic atlas patient-specific anatomy.

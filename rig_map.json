@@ -1,0 +1,17 @@
+{
+  "format": "PhysioSentinel Rig Map v2",
+  "source": "Z-Anatomy / BodyParts3D",
+  "pelvis": ["Hip", "LHip", "RHip"],
+  "spine": ["Hip", "Neck"],
+  "head": ["Neck", "Head", "Nose"],
+  "left_upper_arm": ["LShoulder", "LElbow"],
+  "left_forearm": ["LElbow", "LWrist"],
+  "right_upper_arm": ["RShoulder", "RElbow"],
+  "right_forearm": ["RElbow", "RWrist"],
+  "left_thigh": ["LHip", "LKnee"],
+  "left_shank": ["LKnee", "LAnkle"],
+  "left_foot": ["LAnkle", "LBigToe"],
+  "right_thigh": ["RHip", "RKnee"],
+  "right_shank": ["RKnee", "RAnkle"],
+  "right_foot": ["RAnkle", "RBigToe"]
+}
